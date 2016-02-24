@@ -49,6 +49,10 @@ function renderRow(rows) => {
 
 This is mega-super-alpha. Please file issues or PRs if you would like!
 
+# Known issues
+
+On Safari, scrolling will loose inertia due to virtual items disappearing
+
 # TODO
 
 - Packaging and publishing to npm
