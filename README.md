@@ -52,7 +52,7 @@ This is mega-super-alpha. Please file issues or PRs if you would like!
 # Known issues
 
 On Safari, scrolling will loose inertia due to virtual items disappearing
-
+- FIX/TODO: Looks like there's a fix, thanks to @jounik: [https://github.com/mleibman/SlickGrid/issues/22#issuecomment-192616461](https://github.com/mleibman/SlickGrid/issues/22#issuecomment-192616461)
 # TODO
 
 - Packaging and publishing to npm
