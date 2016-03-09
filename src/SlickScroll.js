@@ -46,8 +46,10 @@ export default class SlickScroll extends Component {
       this.ph = this.th;
     }
 
-    this.n = Math.ceil(this.th / this.ph); // number of pages
+    this.n = Math.ceil(this.th / this.ph);       // number of pages
+    this.ph = this.th / this.n;                  // Adjust page height for rounding of total count
     this.cj = (this.th - this.h) / (this.n - 1); // "jumpiness" coefficient
+
     if (this.n <= 1) {
       this.cj = 1;
     }
